@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500&display=swap");
+
+.content {
+	margin-left: 50px;
+	margin-bottom: 60px;
+}
+
+.text {
+	font-family: "Signika Negative", sans-serif;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.tickets {
+	display: flex;
+}
