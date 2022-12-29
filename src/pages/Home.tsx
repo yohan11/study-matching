@@ -1,7 +1,7 @@
 import React from "react";
 
-import Ticket from "../Ticket";
-import styles from "../Home.module.css";
+import Ticket from "../components/Ticket";
+import styles from "../css/Home.module.css";
 
 function Home() {
 	return (

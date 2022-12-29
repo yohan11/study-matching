@@ -1,4 +1,4 @@
-import styles from "./Ticket.module.css";
+import styles from "../css/Ticket.module.css";
 import Tag from "./Tag";
 import { Link } from "react-router-dom";
 
@@ -11,7 +11,7 @@ interface props {
 
 function Ticket({ studyName, leaderName, type, image }: props) {
 	return (
-		<Link to="/about">
+		<Link to="/about" style={{ textDecoration: "none", color: "black" }}>
 			<span className={styles.content}>
 				<span className={styles.img}>
 					<img src={image} className={styles.studyImg} />
