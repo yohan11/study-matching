@@ -9,7 +9,8 @@ function App() {
 			<Header />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/about" element={<Detail />} />
+				<Route path="/mystudy-detail/:id" element={<Detail />} />
+				<Route path="/recruitingstudy-detail/:id" element={<Detail />} />
 			</Routes>
 		</>
 	);
