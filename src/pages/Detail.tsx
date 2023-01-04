@@ -7,9 +7,16 @@ function Detail() {
 	return (
 		<div className={styles.content}>
 			<div className={styles.main}>
-				<StudyInfo />
+				<StudyInfo
+					studyName="Python"
+					leaderName="김준영"
+					members={7}
+					period="2023.01.01 ~ 2023.02.01 (4주)"
+					type="group"
+					img="img/a.jpeg"
+				/>
 				<div className={styles.btn}>
-					<Button />
+					<Button url="https://github.com/yohan11/study-matching" />
 				</div>
 			</div>
 			<div className={styles.detailInfo}>

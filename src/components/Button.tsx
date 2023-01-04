@@ -1,10 +1,14 @@
 import styles from "../css/Button.module.css";
 
-function Button() {
+interface props {
+	url: string;
+}
+
+function Button({ url }: props) {
 	const styleObj = {};
 	return (
 		<>
-			<a href="https://forms.gle/SN5bVUVVPhagEiiw8">
+			<a href={url}>
 				<button style={styleObj} className={styles.btn}>
 					JOIN
 				</button>
