@@ -10,9 +10,11 @@ function Tag({ type }: props) {
 	};
 
 	return (
-		<span style={styleObj} className={styles.tag}>
-			리딩
-		</span>
+		<>
+			<span style={styleObj} className={styles.tag} id="tag">
+				{type === "leading" ? "리딩" : "그룹"}
+			</span>
+		</>
 	);
 }
 
