@@ -1,16 +1,28 @@
 import styles from "../css/Button.module.css";
 
 interface props {
+	width: string;
+	height: string;
+	color: string;
+	textSize: string;
+	text: string;
 	url: string;
 }
 
-function Button({ url }: props) {
-	const styleObj = {};
+function Button({ width, height, color, textSize, text, url }: props) {
 	return (
 		<>
 			<a href={url}>
-				<button style={styleObj} className={styles.btn}>
-					JOIN
+				<button
+					style={{
+						width,
+						height,
+						backgroundColor: color,
+						fontSize: textSize,
+					}}
+					className={styles.btn}
+				>
+					{text}
 				</button>
 			</a>
 		</>

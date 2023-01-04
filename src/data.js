@@ -1,0 +1,38 @@
+export default [
+	{
+		id: 0,
+		studyName: "Python",
+		leaderName: "김준영",
+		members: 6,
+		period: "2023.01.01 ~ 2023.02.01 (4주)",
+		type: "leading",
+		image: "img/a.jpeg",
+	},
+	{
+		id: 1,
+		studyName: "React",
+		leaderName: "구모모",
+		members: 5,
+		period: "2023.01.01 ~ 2023.03.01 (8주)",
+		type: "leading",
+		image: "img/a.jpeg",
+	},
+	{
+		id: 2,
+		studyName: "Java",
+		leaderName: "박땡땡",
+		members: 10,
+		period: "2023.01.01 ~ 2023.02.01 (4주)",
+		type: "group",
+		image: "img/b.jpeg",
+	},
+	{
+		id: 3,
+		studyName: "C / C++",
+		leaderName: "이모모",
+		members: 3,
+		period: "2023.01.01 ~ 2023.01.08 (1주)",
+		type: "group",
+		image: "img/b.jpeg",
+	},
+];

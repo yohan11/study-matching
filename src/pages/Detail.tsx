@@ -16,9 +16,17 @@ function Detail() {
 					img="img/a.jpeg"
 				/>
 				<div className={styles.btn}>
-					<Button url="https://github.com/yohan11/study-matching" />
+					<Button
+						width="239px"
+						height="61px"
+						color="#2d67bd"
+						text="JOIN"
+						textSize="36px"
+						url="https://github.com/yohan11/study-matching"
+					/>
 				</div>
 			</div>
+
 			<div className={styles.detailInfo}>
 				<div className={styles.section}>
 					<div className={styles.title}>About</div>
